@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		465052E513DA204400A7CCC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465052E413DA204400A7CCC5 /* UIKit.framework */; };
+		465052E713DA204400A7CCC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465052E613DA204400A7CCC5 /* Foundation.framework */; };
+		465052E913DA204400A7CCC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465052E813DA204400A7CCC5 /* CoreGraphics.framework */; };
+		465052EF13DA204400A7CCC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 465052ED13DA204400A7CCC5 /* InfoPlist.strings */; };
+		465052F213DA204400A7CCC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 465052F113DA204400A7CCC5 /* main.m */; };
+		465052F513DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465052F413DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.m */; };
+		465052F813DA204400A7CCC5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 465052F613DA204400A7CCC5 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		465052E013DA204400A7CCC5 /* ODataClientToolkitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODataClientToolkitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		465052E413DA204400A7CCC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		465052E613DA204400A7CCC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		465052E813DA204400A7CCC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		465052EC13DA204400A7CCC5 /* ODataClientToolkitDemo-Info.plist */ = {isa = PBXFileReference; path = "ODataClientToolkitDemo-Info.plist"; sourceTree = "<group>"; };
+		465052EE13DA204400A7CCC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		465052F013DA204400A7CCC5 /* ODataClientToolkitDemo-Prefix.pch */ = {isa = PBXFileReference; path = "ODataClientToolkitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		465052F113DA204400A7CCC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		465052F313DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.h */ = {isa = PBXFileReference; path = ODataClientToolkitDemoAppDelegate.h; sourceTree = "<group>"; };
+		465052F413DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODataClientToolkitDemoAppDelegate.m; sourceTree = "<group>"; };
+		465052F713DA204400A7CCC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		465052DD13DA204400A7CCC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465052E513DA204400A7CCC5 /* UIKit.framework in Frameworks */,
+				465052E713DA204400A7CCC5 /* Foundation.framework in Frameworks */,
+				465052E913DA204400A7CCC5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		465052D513DA204400A7CCC5 = {
+			isa = PBXGroup;
+			children = (
+				465052EA13DA204400A7CCC5 /* ODataClientToolkitDemo */,
+				465052E313DA204400A7CCC5 /* Frameworks */,
+				465052E113DA204400A7CCC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		465052E113DA204400A7CCC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				465052E013DA204400A7CCC5 /* ODataClientToolkitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		465052E313DA204400A7CCC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				465052E413DA204400A7CCC5 /* UIKit.framework */,
+				465052E613DA204400A7CCC5 /* Foundation.framework */,
+				465052E813DA204400A7CCC5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		465052EA13DA204400A7CCC5 /* ODataClientToolkitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				465052F313DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.h */,
+				465052F413DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.m */,
+				465052F613DA204400A7CCC5 /* MainWindow.xib */,
+				465052EB13DA204400A7CCC5 /* Supporting Files */,
+			);
+			path = ODataClientToolkitDemo;
+			sourceTree = "<group>";
+		};
+		465052EB13DA204400A7CCC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				465052EC13DA204400A7CCC5 /* ODataClientToolkitDemo-Info.plist */,
+				465052ED13DA204400A7CCC5 /* InfoPlist.strings */,
+				465052F013DA204400A7CCC5 /* ODataClientToolkitDemo-Prefix.pch */,
+				465052F113DA204400A7CCC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		465052DF13DA204400A7CCC5 /* ODataClientToolkitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465052FB13DA204400A7CCC5 /* Build configuration list for PBXNativeTarget "ODataClientToolkitDemo" */;
+			buildPhases = (
+				465052DC13DA204400A7CCC5 /* Sources */,
+				465052DD13DA204400A7CCC5 /* Frameworks */,
+				465052DE13DA204400A7CCC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODataClientToolkitDemo;
+			productName = ODataClientToolkitDemo;
+			productReference = 465052E013DA204400A7CCC5 /* ODataClientToolkitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		465052D713DA204400A7CCC5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 465052DA13DA204400A7CCC5 /* Build configuration list for PBXProject "ODataClientToolkitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 465052D513DA204400A7CCC5;
+			productRefGroup = 465052E113DA204400A7CCC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				465052DF13DA204400A7CCC5 /* ODataClientToolkitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		465052DE13DA204400A7CCC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465052EF13DA204400A7CCC5 /* InfoPlist.strings in Resources */,
+				465052F813DA204400A7CCC5 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		465052DC13DA204400A7CCC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465052F213DA204400A7CCC5 /* main.m in Sources */,
+				465052F513DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		465052ED13DA204400A7CCC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				465052EE13DA204400A7CCC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		465052F613DA204400A7CCC5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				465052F713DA204400A7CCC5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		465052F913DA204400A7CCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		465052FA13DA204400A7CCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		465052FC13DA204400A7CCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ODataClientToolkitDemo/ODataClientToolkitDemo-Prefix.pch";
+				INFOPLIST_FILE = "ODataClientToolkitDemo/ODataClientToolkitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		465052FD13DA204400A7CCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ODataClientToolkitDemo/ODataClientToolkitDemo-Prefix.pch";
+				INFOPLIST_FILE = "ODataClientToolkitDemo/ODataClientToolkitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		465052DA13DA204400A7CCC5 /* Build configuration list for PBXProject "ODataClientToolkitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465052F913DA204400A7CCC5 /* Debug */,
+				465052FA13DA204400A7CCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465052FB13DA204400A7CCC5 /* Build configuration list for PBXNativeTarget "ODataClientToolkitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465052FC13DA204400A7CCC5 /* Debug */,
+				465052FD13DA204400A7CCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 465052D713DA204400A7CCC5 /* Project object */;
+}
