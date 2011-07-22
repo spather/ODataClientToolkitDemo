@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ODataClientToolkitDemoAppDelegate : NSObject <UIApplicationDelegate> {
-
+    UITabBarController *m_tabBarController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

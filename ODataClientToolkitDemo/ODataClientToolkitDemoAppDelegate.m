@@ -7,7 +7,10 @@
 //
 
 #import "ODataClientToolkitDemoAppDelegate.h"
-
+#import "ODataClientToolkitDemoAppDelegate.h"
+#import "ODataClientToolkit/VocabularyDrivenPartialResultsTableViewController.h"
+#import "ODataClientToolkit/QueryDescriptionVocabulary.h"
+#import "ODataClientToolkit/VocabularyDrivenControllerBuilder.h"
 @implementation ODataClientToolkitDemoAppDelegate
 
 
@@ -15,7 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    m_tabBarController = [[UITabBarController alloc] init];
+    [self.window addSubview:[m_tabBarController view]];
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Annotations" ofType:@"xml"];
+    
+    VocabularyDrivenControllerBuilder *builder = [[VocabularyDrivenControllerBuilder alloc] init];
+    
+    [builder configureTabBarController:m_tabBarController fromAnnotations:filePath];
+    
+    [builder release];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

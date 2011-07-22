@@ -1,0 +1,16 @@
+<Annotations>
+	<QueryDescription name="Posts" 
+		serviceUri="http://data.stackexchange.com/stackoverflow/atom"
+		queryUri="Posts?$filter=ParentId%20eq%20null" 
+		displayTitleKey="m_Title" 
+		displayDetailKey="m_Tags" 
+		displayRowHeight="75" 
+		contextClassName="Entities" />
+	<QueryDescription name="Users" 
+		serviceUri="http://data.stackexchange.com/stackoverflow/atom"
+		queryUri="Users" 
+		displayTitleKey="m_DisplayName" 
+		displayDetailKey="m_Location" 
+		displayRowHeight="75" 
+		contextClassName="Entities" />	
+</Annotations>

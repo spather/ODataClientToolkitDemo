@@ -14,6 +14,10 @@
 		465052F213DA204400A7CCC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 465052F113DA204400A7CCC5 /* main.m */; };
 		465052F513DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465052F413DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.m */; };
 		465052F813DA204400A7CCC5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 465052F613DA204400A7CCC5 /* MainWindow.xib */; };
+		465052FF13DA206E00A7CCC5 /* MSODataLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465052FE13DA206E00A7CCC5 /* MSODataLib.framework */; };
+		4650530113DA207B00A7CCC5 /* ODataClientToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4650530013DA207B00A7CCC5 /* ODataClientToolkit.framework */; };
+		4650530513DA213D00A7CCC5 /* Annotations.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4650530213DA213D00A7CCC5 /* Annotations.xml */; };
+		4650530613DA213D00A7CCC5 /* Entities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4650530413DA213D00A7CCC5 /* Entities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +25,18 @@
 		465052E413DA204400A7CCC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		465052E613DA204400A7CCC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		465052E813DA204400A7CCC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		465052EC13DA204400A7CCC5 /* ODataClientToolkitDemo-Info.plist */ = {isa = PBXFileReference; path = "ODataClientToolkitDemo-Info.plist"; sourceTree = "<group>"; };
+		465052EC13DA204400A7CCC5 /* ODataClientToolkitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ODataClientToolkitDemo-Info.plist"; sourceTree = "<group>"; };
 		465052EE13DA204400A7CCC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		465052F013DA204400A7CCC5 /* ODataClientToolkitDemo-Prefix.pch */ = {isa = PBXFileReference; path = "ODataClientToolkitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		465052F013DA204400A7CCC5 /* ODataClientToolkitDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ODataClientToolkitDemo-Prefix.pch"; sourceTree = "<group>"; };
 		465052F113DA204400A7CCC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		465052F313DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.h */ = {isa = PBXFileReference; path = ODataClientToolkitDemoAppDelegate.h; sourceTree = "<group>"; };
+		465052F313DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODataClientToolkitDemoAppDelegate.h; sourceTree = "<group>"; };
 		465052F413DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODataClientToolkitDemoAppDelegate.m; sourceTree = "<group>"; };
 		465052F713DA204400A7CCC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		465052FE13DA206E00A7CCC5 /* MSODataLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MSODataLib.framework; path = ../Frameworks/MSODataLib.framework; sourceTree = "<group>"; };
+		4650530013DA207B00A7CCC5 /* ODataClientToolkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ODataClientToolkit.framework; path = ../Frameworks/ODataClientToolkit.framework; sourceTree = "<group>"; };
+		4650530213DA213D00A7CCC5 /* Annotations.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Annotations.xml; sourceTree = "<group>"; };
+		4650530313DA213D00A7CCC5 /* Entities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entities.h; sourceTree = "<group>"; };
+		4650530413DA213D00A7CCC5 /* Entities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4650530113DA207B00A7CCC5 /* ODataClientToolkit.framework in Frameworks */,
+				465052FF13DA206E00A7CCC5 /* MSODataLib.framework in Frameworks */,
 				465052E513DA204400A7CCC5 /* UIKit.framework in Frameworks */,
 				465052E713DA204400A7CCC5 /* Foundation.framework in Frameworks */,
 				465052E913DA204400A7CCC5 /* CoreGraphics.framework in Frameworks */,
@@ -47,6 +58,8 @@
 		465052D513DA204400A7CCC5 = {
 			isa = PBXGroup;
 			children = (
+				4650530013DA207B00A7CCC5 /* ODataClientToolkit.framework */,
+				465052FE13DA206E00A7CCC5 /* MSODataLib.framework */,
 				465052EA13DA204400A7CCC5 /* ODataClientToolkitDemo */,
 				465052E313DA204400A7CCC5 /* Frameworks */,
 				465052E113DA204400A7CCC5 /* Products */,
@@ -74,6 +87,9 @@
 		465052EA13DA204400A7CCC5 /* ODataClientToolkitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4650530213DA213D00A7CCC5 /* Annotations.xml */,
+				4650530313DA213D00A7CCC5 /* Entities.h */,
+				4650530413DA213D00A7CCC5 /* Entities.m */,
 				465052F313DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.h */,
 				465052F413DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.m */,
 				465052F613DA204400A7CCC5 /* MainWindow.xib */,
@@ -142,6 +158,7 @@
 			files = (
 				465052EF13DA204400A7CCC5 /* InfoPlist.strings in Resources */,
 				465052F813DA204400A7CCC5 /* MainWindow.xib in Resources */,
+				4650530513DA213D00A7CCC5 /* Annotations.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +171,7 @@
 			files = (
 				465052F213DA204400A7CCC5 /* main.m in Sources */,
 				465052F513DA204400A7CCC5 /* ODataClientToolkitDemoAppDelegate.m in Sources */,
+				4650530613DA213D00A7CCC5 /* Entities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +234,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ODataClientToolkitDemo/ODataClientToolkitDemo-Prefix.pch";
@@ -230,6 +252,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ODataClientToolkitDemo/ODataClientToolkitDemo-Prefix.pch";
 				INFOPLIST_FILE = "ODataClientToolkitDemo/ODataClientToolkitDemo-Info.plist";
